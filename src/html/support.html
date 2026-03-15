@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Support</title>
     <link rel="stylesheet" href="../css/output.css">
+
+    <!-- animate CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
 </head>
 <body>
-    <section class="contact pt-[100px] mx-3">
-            <div class="contact-content bg-gradient-to-t from-[#fff] to-[#dee7ff47] px-5 lg:px-[80px] py-[60px] lg:py-[100px] dark:bg-gradient-to-t dark:from-transparent dark:to-[#24283E] flex flex-col-reverse lg:flex-row relative">
-                
-                <div class="contact-background absolute left-0 lg:left-[42px] mt-[380px] w-full lg:w-[1180px] z-[0] hidden lg:block">
+    <section class="contact pt-[150px] max-w-[1280px] mx-auto"> 
+            <div class="contact-content bg-gradient-to-t from-[#fff] to-[#dee7ff47] px-5 lg:px-[80px] py-[60px] lg:py-[100px] dark:bg-gradient-to-t dark:from-transparent dark:to-[#24283E] flex flex-col-reverse lg:flex-row relative mx-3 wow animate__animated animate__fadeInDown animate__slow"> 
+                <div class="contact-background absolute left-1/2 -translate-x-1/2 mt-[330px] w-[95%] z-[0] hidden lg:block">
                     <img src="../img/shape-dotted-light.svg" alt="" class="dark:hidden">
                     <img src="../img/shape-dotted-dark.svg" alt="" class="hidden dark:block">
                 </div>
@@ -31,7 +36,7 @@
 
                         <textarea placeholder="Message" class="text-gray-500 focus:text-black text-[17px] mb-[25px] w-full pb-[30px] outline-none border-b border-b-gray-300 focus:border-b-gray-500 dark:text-[#9ca3a3] dark:focus:text-white dark:border-b dark:border-b-gray-700 dark:focus:border-b-gray-300 bg-transparent"></textarea>
                         
-                        <div class="checkbox flex items-start gap-[10px]">  
+                        <div class="checkbox flex items-start gap-[10px]">
                             <input type="checkbox" class="mt-1 w-[18px] h-[18px] shrink-0 appearance-none bg-gray-200 dark:bg-gray-600 rounded-[5px] outline-none checked:bg-blue-500 checked:bg-[url('../img/check-mark-svgrepo-com.svg')] checked:bg-center checked:bg-no-repeat checked:bg-[length:12px_12px]">
                             <p class="text-[15px] lg:text-[17px] text-[#5f5a63]">By clicking Checkbox, you agree to use our “Form” terms And consent cookie usage in browser.</p>
                         </div>
@@ -44,8 +49,8 @@
                 </div>
 
                 <div class="contact-right w-full lg:w-[25%] lg:ml-[150px] z-[1] mb-10 lg:mb-0">
-                    <h1 class="text-[30px] lg:text-[40px] font-[500] mb-6 lg:mb-[50px] dark:text-white text-center lg:text-left">Find us</h1>
-                    <div class="space-y-6 text-center lg:text-left">
+                    <h1 class="text-[30px] lg:text-[40px] font-[500] mb-6 lg:mb-[50px] dark:text-white  lg:text-left">Find us</h1>
+                    <div class="space-y-6 lg:text-left">
                         <div>
                             <h2 class="text-[20px] font-[500] mb-[5px] dark:text-white">Our Location</h2>
                             <p class="text-[17px] text-[#b1b6c0]">290 Maryam Springs 260, Paris, France</p>
@@ -54,9 +59,25 @@
                             <h2 class="text-[20px] font-[500] mb-[5px] dark:text-white">Email Address</h2>
                             <a class="text-[17px] text-[#b1b6c0] hover:text-blue-500" href="mailto:huykien@tailwin.com">huykien@tailwin.com</a>
                         </div>
+                        <div>
+                            <h2 class="text-[20px] font-[500] mb-[5px] dark:text-white">Phone number</h2>
+                            <a class="text-[17px] text-[#b1b6c0] hover:text-blue-500" href="tel:+009423346343843">+009423346343843</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- wow JS -->
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" 
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 </html>
