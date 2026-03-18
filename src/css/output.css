@@ -263,9 +263,6 @@
   .top-2\.5 {
     top: calc(var(--spacing) * 2.5);
   }
-  .top-8 {
-    top: calc(var(--spacing) * 8);
-  }
   .top-8\.5 {
     top: calc(var(--spacing) * 8.5);
   }
@@ -295,9 +292,6 @@
   }
   .top-\[120px\] {
     top: 120px;
-  }
-  .-right-3 {
-    right: calc(var(--spacing) * -3);
   }
   .-right-3\.5 {
     right: calc(var(--spacing) * -3.5);
@@ -346,9 +340,6 @@
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
@@ -430,9 +421,6 @@
   }
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
-  }
-  .ms-1 {
-    margin-inline-start: calc(var(--spacing) * 1);
   }
   .ms-1\.5 {
     margin-inline-start: calc(var(--spacing) * 1.5);
@@ -653,9 +641,6 @@
   .inline-flex {
     display: inline-flex;
   }
-  .table {
-    display: table;
-  }
   .aspect-\[16\/9\] {
     aspect-ratio: 16/9;
   }
@@ -669,14 +654,8 @@
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
   .h-6\.5 {
     height: calc(var(--spacing) * 6.5);
-  }
-  .h-7 {
-    height: calc(var(--spacing) * 7);
   }
   .h-7\.5 {
     height: calc(var(--spacing) * 7.5);
@@ -837,21 +816,11 @@
   .max-w-xl {
     max-width: var(--container-xl);
   }
-  .flex-shrink {
-    flex-shrink: 1;
-  }
   .flex-shrink-0 {
     flex-shrink: 0;
   }
   .shrink-0 {
     flex-shrink: 0;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
@@ -1211,9 +1180,6 @@
   }
   .bg-\[url\(\.\.\/img\/shape-dotted-light\.svg\)\] {
     background-image: url(../img/shape-dotted-light.svg);
-  }
-  .bg-\[url\(\/img\/shape-dotted-light\.svg\)\] {
-    background-image: url(/img/shape-dotted-light.svg);
   }
   .from-\[\#F8F9FF\] {
     --tw-gradient-from: #F8F9FF;
@@ -1610,9 +1576,6 @@
   }
   .text-nowrap {
     text-wrap: nowrap;
-  }
-  .text-wrap {
-    text-wrap: wrap;
   }
   .whitespace-nowrap {
     white-space: nowrap;
@@ -2014,11 +1977,6 @@
   .checked\:bg-\[url\(\'\.\.\/img\/check-mark-svgrepo-com\.svg\'\)\] {
     &:checked {
       background-image: url('../img/check-mark-svgrepo-com.svg');
-    }
-  }
-  .checked\:bg-\[url\(\'\/img\/check-mark-svgrepo-com\.svg\'\)\] {
-    &:checked {
-      background-image: url('/img/check-mark-svgrepo-com.svg');
     }
   }
   .checked\:bg-\[length\:12px_12px\] {
@@ -2903,11 +2861,6 @@
       background-image: url(../img/shape-dotted-light.svg);
     }
   }
-  .xl\:bg-\[url\(\/img\/shape-dotted-light\.svg\)\] {
-    @media (width >= 80rem) {
-      background-image: url(/img/shape-dotted-light.svg);
-    }
-  }
   .xl\:p-0 {
     @media (width >= 80rem) {
       padding: calc(var(--spacing) * 0);
@@ -3469,11 +3422,6 @@
       background-image: url(../img/shape-dotted-dark.svg);
     }
   }
-  .dark\:bg-\[url\(\/img\/shape-dotted-dark\.svg\)\] {
-    &:where(.dark, .dark *) {
-      background-image: url(/img/shape-dotted-dark.svg);
-    }
-  }
   .dark\:bg-none {
     &:where(.dark, .dark *) {
       background-image: none;
@@ -3755,13 +3703,6 @@
     @media (width >= 80rem) {
       &:where(.dark, .dark *) {
         background-image: url(../img/shape-dotted-dark.svg);
-      }
-    }
-  }
-  .xl\:dark\:bg-\[url\(\/img\/shape-dotted-dark\.svg\)\] {
-    @media (width >= 80rem) {
-      &:where(.dark, .dark *) {
-        background-image: url(/img/shape-dotted-dark.svg);
       }
     }
   }
